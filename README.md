@@ -8,8 +8,8 @@ Game of Thrones, donde podremos ver el nombre y la imagen de los personajes, ade
 de estos, para asi poder conocer mas informacion sobre los distintos personajes de la serie
 
 #### Funcionamiento de la App #####
-Una vez reconstruidos los paquetes con npm i, ejecutamos el comando npm start para levantar la aplicacion
-una vez iniciada la aplicacion nos encontraremos con la pagina principal (HomePage),
+Una vez reconstruidos los paquetes con npm i, ejecutamos el comando npm run dev-server para levantar la aplicacion
+una vez iniciada la aplicacion, copiamos la siguiente url para abrir el proyecto en el navegador http://localhost:8080/  nos encontraremos con la pagina principal (HomePage),
 donde se visualizara un mensaje de bienvenida.
 
 Luego en la parte superior izquierda tendremos 2 links, Home / Characters
