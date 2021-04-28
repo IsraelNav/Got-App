@@ -1,70 +1,24 @@
-# Getting Started with Create React App
+### Reconstruccion de Node_Modules #####
+Para reconstruir todos los paquetes y dependencias del proyecto
+debemos ejecutar en la consola el comando npm i una vez posicionado en la carpeta raiz del proyecto
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#### GOT APP #####
+Got App, es una aplicacion la cual se ha construido para poder visualizar personajes de la serie
+Game of Thrones, donde podremos ver el nombre y la imagen de los personajes, ademas de un detalle
+de estos, para asi poder conocer mas informacion sobre los distintos personajes de la serie
 
-## Available Scripts
+#### Funcionamiento de la App #####
+Una vez reconstruidos los paquetes con npm i, ejecutamos el comando npm start para levantar la aplicacion
+una vez iniciada la aplicacion nos encontraremos con la pagina principal (HomePage),
+donde se visualizara un mensaje de bienvenida.
 
-In the project directory, you can run:
+Luego en la parte superior izquierda tendremos 2 links, Home / Characters
+ 
+Home: Para volver a la pagina principal (HomePage)
+Characters: Para poder visualizar todos los personajes de la serie
 
-### `npm start`
+Si seleccionamos Characters podremos visualizar una tarjeta con el nombre, la imagen y un boton
+de cada personaje, 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+El boton te lleva a la ruta /characters/ById/:id, para poder visualizar el detalle de cada personaje de la serie
+donde podras encontrar informacion adicional de este
